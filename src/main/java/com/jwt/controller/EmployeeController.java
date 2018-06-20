@@ -110,7 +110,7 @@ public class EmployeeController {
 	public ModelAndView savePatients(@RequestParam("regiNo") String registrationNo,@RequestParam("pName") String patientName, Model model )
 	{
 	
-		System.out.println("name="+patientName);
+		
 		System.out.println("rgistration no="+registrationNo);
 		Patients patients=new Patients(registrationNo, patientName);
 		String abc=null;
